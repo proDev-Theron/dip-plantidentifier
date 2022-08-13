@@ -17,6 +17,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
+    document.title = "Digital Image Processing Plant Identifier"
     tf.loadGraphModel(weights).then(model => {
       this.setState({
         model: model
