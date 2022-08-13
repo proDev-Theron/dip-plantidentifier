@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://proDev-Theron.github.io/dip-plantidentifier/build",
+  "homepage": "https://proDev-Theron.github.io/dip-plantidentifier/",
   "dependencies": {
     "@tensorflow/tfjs": "3.9.0",
     "gh-pages": "^3.2.3",
