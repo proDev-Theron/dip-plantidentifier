@@ -2,16 +2,30 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="theme-color" content="#000000">
-	<!--
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
+  <!-- CSS LIBRARY -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="css/Pe-icon-7-stroke.min.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <!-- MAIN STYLE -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-	<!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -20,15 +34,62 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-	<title>React App</title>
+  <title>React App</title>
 </head>
 
-<body>
-	<noscript>
-		You need to enable JavaScript to run this app.
-	</noscript>
-	<div id="root"></div>
-	<!--
+<body class="home7">
+  <!-- HEADER -->
+  <header id="main-header" class="header-absolute hidden-sm hidden-xs">
+      <div class="container-fluid">
+          <div class="inner row">
+              <div class="logo col-lg-2 col-md-2">
+                  <a href="#" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive"></a>
+              </div>
+              <div class="header-right col-lg-10 col-md-10"> 
+                  <div class="main-menu">
+                      <div id="menu-popup" class="menu-popup">
+                          <div class="burger-menu"><span></span></div>
+                      </div>
+                  </div>
+                          
+              </div>
+          </div>
+      </div>                
+  </header>
+  <!-- END-HEADER -->
+  <!-- HEADER MOBILE-->
+  <header id="header_mobile" class="header-mobile-default hidden-lg hidden-md">
+      <div class="header-top">
+          <div class="container">
+              <div class="logo text-center">
+                  <a href="#" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive"></a>
+              </div>
+          </div>
+      </div>
+      <div class="header-bottom">
+          <div class="container">
+              <div class="inner">                
+                  <div class="header-main">
+                      <div class="main-left">
+                          <button data-toggle="offcanvas" class="btn btn-offcanvas btn-toggle-canvas offcanvas" type="button">
+                             <i class="ion ion-android-menu"></i>
+                          </button>  
+                      </div>
+                      <div class="main-right">
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>            
+  </header>
+  <!-- END-HEADER -->
+
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -38,6 +99,113 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+        <!-- Menu popup -->
+        <div id="content_menu_popup" class="content-menu-popup hidden-sm hidden-xs"> 
+          <div class="menu-popup-body">
+              <ul class="navbar-menu">
+                  <li class="items">
+                      <a href="#"><span>Menu 1</span></a>
+                  </li>
+                  <li class="items">
+                      <a href="#"><span>About Us</span></a>
+                  </li>
+                  <li class="items">
+                      <a href="#"><span>Pages</span></a>
+                  </li>
+                  <li class="items">
+                      <a href="#"><span>Menu 4</span></a>
+                  </li>
+                  <li class="items">
+                      <a href="#"><span>Contact Us</span></a>
+                  </li>
+              </ul>
+          </div>
+      </div>  
+      <!-- Menu offcanvas -->
+      <div id="pbr-off-canvas" class="pbr-off-canvas sidebar-offcanvas hidden-lg hidden-md"> 
+          <div class="pbr-off-canvas-body">
+              <div class="offcanvas-head">
+                  <button type="button" class="btn btn-close btn-toggle-canvas" data-toggle="offcanvas">
+                      <i class="pe-7s-close-circle"></i> 
+                  </button>
+                  <span>Menu</span>
+              </div>  
+              <nav class="navbar navbar-offcanvas navbar-static">
+                  <ul class="nav navbar-nav">
+                      <li class="level1 active hassub">
+                          <a href="#">Menu 1</a>
+                      </li>
+                      <li class="level1 hassub">
+                          <a href="#">About</a>
+                      </li>
+                      <li class="level1 hassub">
+                          <a href="#">News</a>
+                      </li>
+                      <li class="level1 hassub">
+                          <a href="#">Contact</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="footer-bottom">
+              <div class="wrap-copyright">
+                  <div class="copyright">
+                      Copyright © 2022 IdentiPlant. Created with [heart icon] by<a href="#">Group 4</a>.
+                  </div>
+                  <div class="countries">
+                      <img src="images/" alt="">Pamantasan ng Lungsod ng Maynila
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                      <div class="menu-footer">
+                          <ul>
+                              <li><a href="#">Menu 1</a></li>
+                              <li><a href="#">FAQ</a></li>
+                              <li><a href="#">  Terms of Use </a></li>
+                              <li><a href="#">  Privacy Policy </a></li>
+                              <li><a href="#"> Menu 5 </a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                      <div class="social">
+                          <a href="#" title="linkedin">
+                          <i class="fa fa-linkedin"></i>
+                      </a>
+                          <a href="#" title="instagram">
+                          <i class="    fa fa-instagram"></i>
+                      </a>
+                          <a href="#" title="GitHub">
+                          <i class="fa fa-github"></i>
+                      </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+        <!--SCOLL TOP-->
+        <a href="#" title="sroll" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+        <!--END / SROLL TOP-->
+        <!-- LOAD JQUERY -->
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/vit-gallery.js"></script>
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.min.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/jquery.littlelightbox.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
+        <!-- Custom jQuery -->
+        <script type="text/javascript" src="js/function.js"></script>
 </body>
 
 </html>
