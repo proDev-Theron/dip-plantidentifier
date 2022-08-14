@@ -8,7 +8,7 @@ import "./styles.css";
 const tf = require('@tensorflow/tfjs');
 
 //Has 404 error in production. Added GitHub repository name /dip-plantidentifier/ 
-const weights = '/dip-plantidentifier/web_model/model.json';
+const weights = '/web_model/model.json';
 
 const names = ['Kamyas', 'Oregano', 'Mango', 'Golden Photos', 'Croton', 'person']
 

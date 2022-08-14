@@ -46,23 +46,6 @@ export default class footer extends Component {
                     </div>
                 </footer>
 
-       // SCROLL TOP
-                <a href="#" title="sroll" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
-
-                <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-                <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-                <script type="text/javascript" src="js/bootstrap.min.js"></script>
-                <script type="text/javascript" src="js/slick.min.js"></script>
-                <script type="text/javascript" src="js/vit-gallery.js"></script>
-                <script type="text/javascript" src="js/jquery.countTo.js"></script>
-                <script type="text/javascript" src="js/jquery.appear.min.js"></script>
-                <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-                <script type="text/javascript" src="js/bootstrap-select.js"></script>
-                <script type="text/javascript" src="js/slick.min.js"></script>
-                <script type="text/javascript" src="js/jquery.littlelightbox.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
-
-                <script type="text/javascript" src="js/function.js"></script>
             </>
         )
     }
