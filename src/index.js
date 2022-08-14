@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Layout from "./Layout/Layout";
+import Footer from "./Layout/Footer"
 import MagicDropzone from "react-magic-dropzone";
 
 import "./styles.css";
@@ -121,6 +123,8 @@ class App extends React.Component {
 
   render() {
     return (
+      <>
+      <Layout/>
       <div className="Dropzone-page">
         {this.state.model ? (
           <MagicDropzone
@@ -145,6 +149,9 @@ class App extends React.Component {
           <div className="Dropzone">Loading model...</div>
         )}
       </div>
+
+      <Footer />
+      </>
     );
   }
 }
