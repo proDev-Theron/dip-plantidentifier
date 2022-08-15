@@ -10,11 +10,7 @@ export default class footer extends Component {
                         <div class="footer-bottom">
                             <div class="wrap-copyright">
                                 <div class="copyright">
-<<<<<<< HEAD
-                                    Copyright © 2022 IdentiPlant. Created with <i class="fa-fa fa-heart"></i> by<a href="#">Group 4</a>.
-=======
-                                    Copyright © 2022 IdentiPlant. Created with <i class="fa-solid fa-heart"></i> by<a href="#">Group 4</a>.
->>>>>>> d36888b520b736f19961008567257dca952cdb63
+                                    Copyright © 2022 IdentiPlant. Created with [heart icon] by<a href="#">Group 4</a>.
                                 </div>
                                 <div class="countries">
                                     <img src="images/" alt="insert PLM Logo" />Pamantasan ng Lungsod ng Maynila
