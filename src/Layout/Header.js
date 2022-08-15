@@ -4,7 +4,7 @@ export class Header extends Component {
     render() {
         return (
             <>
-                <header id="main-header" class="header-absolute hidden-sm hidden-xs">
+                <header id="main-header" class="header-v6 hidden-sm hidden-xs">
                     <div class="container-fluid">
                         <div class="inner row">
                             <div class="logo col-lg-2 col-md-2">
