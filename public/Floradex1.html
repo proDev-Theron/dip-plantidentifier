@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
   <title>Floradex</title>
   <!-- GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
   <!-- CSS LIBRARY -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
   <link rel="stylesheet" type="text/css" href="css/Pe-icon-7-stroke.min.css">
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
@@ -18,26 +20,25 @@
   <link rel="stylesheet" type="text/css" href="css/animation.css">
   <!-- MAIN STYLE -->
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/floradex.css">
   <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.png" or "favicon.png", "%PUBLIC_URL%/favicon.png" will
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>React App</title>
 </head>
 
-<body>
+<body class="blog-v2">
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
@@ -54,10 +55,8 @@
   <header id="main-header" class="header-absolute hidden-sm hidden-xs">
     <div class="container-fluid">
       <div class="inner row">
-        <div id="head">
-          <a href="index.html">
-              <img src="images/FloraDex/IP.png" alt="IP" id="home">
-          </a>
+        <div class="logo col-lg-2 col-md-2">
+          <a href="/" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive" /></a>
         </div>
         <div class="header-right col-lg-10 col-md-10">
           <div class="main-menu">
@@ -75,7 +74,7 @@
     <div class="header-top">
       <div class="container">
         <div class="logo text-center">
-          <a href="/" title="logo"><img alt="logo-theme" src="images/FloraDex/IP.png" class="img-responsive" /></a>
+          <a href="/" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive" /></a>
         </div>
       </div>
     </div>
