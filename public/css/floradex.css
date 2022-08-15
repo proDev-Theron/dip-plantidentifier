@@ -1,0 +1,41 @@
+body {
+    background-image: url('../images/FloraDex/Background.png');
+    background-size:auto;
+    background-color: #06cb5c;
+}
+
+a {
+    padding: 0%;
+    margin:0%;
+    border: 0%;
+}
+#head {
+    display:inline;
+    margin-right:5%;
+}
+#cont {
+    display: inline;
+}
+
+#home {
+    width:10%;
+    height:10%;
+}
+
+#title {
+    width:20%;
+    height:20%;
+    text-align: center;
+}
+
+#plantcontainer {
+    margin-top:13%;
+    margin-left:12%;
+
+}
+
+#plants {
+    width:15%;
+    height:15%;
+    margin-right:2%;
+}
