@@ -1,0 +1,80 @@
+body {
+    background-color: #044aad;
+    margin: 0%;
+}
+
+a {
+    padding: 0%;
+    margin:0%;
+    border: 0%;
+}
+#head {
+    padding-left:2%;
+    padding-top:2%;
+}
+
+#bgimage {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+#home {
+    width:7%;
+    margin-right:30%;
+}
+
+#banner {
+    width: 17%;
+}
+
+#goldy {
+    width: 22%;
+}
+
+#menuses {
+    border-top: 5%;
+}
+
+.tabs {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color: white;
+    cursor:pointer;
+    margin-right: 30%;
+    display: inline;
+}
+
+#domestication {
+    margin:0%;
+}
+
+#title {
+    width:20%;
+    height:20%;
+    text-align: center;
+}
+
+#bodycontainer {
+    margin-top:21%;
+    margin-left:12%;
+    margin-bottom:2%;
+
+}
+
+#content {
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 300%;
+    text-align: justify;
+    font-size: 100%;
+    color: white;
+
+}
+
+#coppy {
+    color:white;
+}
