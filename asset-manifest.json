@@ -1,13 +1,13 @@
 {
-  "main.css": "/dip-plantidentifier/static/css/main.62ca301e.chunk.css",
-  "main.js": "/dip-plantidentifier/static/js/main.dc739905.chunk.js",
-  "main.js.map": "/dip-plantidentifier/static/js/main.dc739905.chunk.js.map",
-  "static/js/1.4552af04.chunk.js": "/dip-plantidentifier/static/js/1.4552af04.chunk.js",
-  "static/js/1.4552af04.chunk.js.map": "/dip-plantidentifier/static/js/1.4552af04.chunk.js.map",
+  "main.css": "/dip-plantidentifier/static/css/main.464e63b1.chunk.css",
+  "main.js": "/dip-plantidentifier/static/js/main.ef4c10c3.chunk.js",
+  "main.js.map": "/dip-plantidentifier/static/js/main.ef4c10c3.chunk.js.map",
+  "static/js/1.2f347a7f.chunk.js": "/dip-plantidentifier/static/js/1.2f347a7f.chunk.js",
+  "static/js/1.2f347a7f.chunk.js.map": "/dip-plantidentifier/static/js/1.2f347a7f.chunk.js.map",
   "runtime~main.js": "/dip-plantidentifier/static/js/runtime~main.665a7f7d.js",
   "runtime~main.js.map": "/dip-plantidentifier/static/js/runtime~main.665a7f7d.js.map",
-  "static/css/main.62ca301e.chunk.css.map": "/dip-plantidentifier/static/css/main.62ca301e.chunk.css.map",
+  "static/css/main.464e63b1.chunk.css.map": "/dip-plantidentifier/static/css/main.464e63b1.chunk.css.map",
   "index.html": "/dip-plantidentifier/index.html",
-  "precache-manifest.f88a13d3188b7463d854c197908a4233.js": "/dip-plantidentifier/precache-manifest.f88a13d3188b7463d854c197908a4233.js",
+  "precache-manifest.d85f53711865c3c6e9717b4f693c069e.js": "/dip-plantidentifier/precache-manifest.d85f53711865c3c6e9717b4f693c069e.js",
   "service-worker.js": "/dip-plantidentifier/service-worker.js"
 }
