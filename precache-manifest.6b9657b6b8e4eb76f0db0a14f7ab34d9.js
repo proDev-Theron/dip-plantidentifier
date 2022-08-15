@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3013a3431761e0f12350",
+    "revision": "07bbf4e20628652f19ea",
     "url": "/dip-plantidentifier/static/css/main.464e63b1.chunk.css"
   },
   {
-    "revision": "3013a3431761e0f12350",
-    "url": "/dip-plantidentifier/static/js/main.3013a343.chunk.js"
+    "revision": "07bbf4e20628652f19ea",
+    "url": "/dip-plantidentifier/static/js/main.07bbf4e2.chunk.js"
   },
   {
     "revision": "c96c12e805cf28324ccb",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/dip-plantidentifier/static/js/runtime~main.665a7f7d.js"
   },
   {
-    "revision": "1d84f673b6032f4b15e7f53f592bd063",
+    "revision": "d20fe1a4275809b2a466583c7a542ee8",
     "url": "/dip-plantidentifier/index.html"
   }
 ];
