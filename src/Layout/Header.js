@@ -8,7 +8,7 @@ export class Header extends Component {
                     <div class="container-fluid">
                         <div class="inner row">
                             <div class="logo col-lg-2 col-md-2">
-                                <a href="/" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive" /></a>
+                                <a href="https://prodev-theron.github.io/dip-plantidentifier/" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive" /></a>
                             </div>
                             <div class="header-right col-lg-10 col-md-10">
                                 <div class="main-menu">
@@ -26,7 +26,7 @@ export class Header extends Component {
                     <div class="header-top">
                         <div class="container">
                             <div class="logo text-center">
-                                <a href="/" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive" /></a>
+                                <a href="https://prodev-theron.github.io/dip-plantidentifier/" title="logo"><img alt="logo-theme" src="images/logo.png" class="img-responsive" /></a>
                             </div>
                         </div>
                     </div>

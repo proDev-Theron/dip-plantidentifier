@@ -8,13 +8,13 @@ export default class Sidebar extends Component {
                     <div class="menu-popup-body">
                         <ul class="navbar-menu">
                             <li class="items">
-                                <a href="/"><span>Home</span></a>
+                                <a href="https://prodev-theron.github.io/dip-plantidentifier/"><span>Home</span></a>
                             </li>
                             <li class="items">
-                                <a href="Floradex.html"><span>Floradex</span></a>
+                                <a href="../dip-plantidentifier/Floradex.html"><span>Floradex</span></a>
                             </li>
                             <li class="items">
-                                <a href="/"><span>Contact Us</span></a>
+                                <a href="../dip-plantidentifier/"><span>Contact Us</span></a>
                             </li>
                         </ul>
                     </div>
@@ -31,10 +31,10 @@ export default class Sidebar extends Component {
                         <nav class="navbar navbar-offcanvas navbar-static">
                             <ul class="nav navbar-nav">
                                 <li class="level1 active hassub">
-                                    <a href="/">Home</a>
+                                    <a href="https://prodev-theron.github.io/dip-plantidentifier/">Home</a>
                                 </li>
                                 <li class="level1 hassub">
-                                    <a href="Floradex.html">Floradex </a>
+                                    <a href="../dip-plantidentifier/Floradex.html">Floradex </a>
                                 </li>
                             </ul>
                         </nav>
