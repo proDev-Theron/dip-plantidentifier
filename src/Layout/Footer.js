@@ -22,7 +22,7 @@ export default class footer extends Component {
                                         <ul>
                                             <li><a href="https://prodev-theron.github.io/dip-plantidentifier/" id="coppy">Home</a></li>
                                             <li><a href="../dip-plantidentifier/Floradex.html" id="coppy">Floradex</a></li>
-                                            <li><a href="index.html" id="coppy">  Terms of Use </a></li>
+                                            <li><a href="../Final IEEE Paper.pdf" id="coppy">IEEE Paper</a></li>
                                         </ul>
                                     </div>
                                 </div>
