@@ -10,7 +10,7 @@ export default class footer extends Component {
                         <div class="footer-bottom">
                             <div class="wrap-copyright">
                                 <div class="copyright" id="coppy">
-                                    Copyright © 2022 IdentiPlant. Created with <i class="fa fa-heart"></i> by<a href="#">Group 4</a>.
+                                    Copyright © 2022 IdentiPlant. Created with <i class="fa fa-heart"></i> by Group 4.
                                 </div>
                                 <div class="countries" id="coppy">
                                     <img src="images/logo-white.png" alt="logo" />Pamantasan ng Lungsod ng Maynila
@@ -28,13 +28,13 @@ export default class footer extends Component {
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                                     <div class="social">
-                                        <a href="#" title="linkedin">
+                                        <a href="https://www.linkedin.com/in/prodev-theron" title="Theron's LinkedIn">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
-                                        <a href="#" title="instagram">
-                                            <i class="fa fa-instagram"></i>
+                                        <a href="../Final IEEE Paper.pdf" title="IEEE Paperclip">
+                                            <i class="fa fa-paperclip"></i>
                                         </a>
-                                        <a href="https://github.com/proDev-Theron/dip-plantidentifier" title="GitHub">
+                                        <a href="https://github.com/proDev-Theron/dip-plantidentifier" title="Project's GitHub Repo">
                                             <i class="fa fa-github"></i>
                                         </a>
                                     </div>
