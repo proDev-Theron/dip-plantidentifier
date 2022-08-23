@@ -141,7 +141,7 @@ class App extends React.Component {
                 src={this.state.preview}
               />
             ) : (
-              "Choose or drop a file."
+              "Choose or drop the image of the plant you want to identify"
             )}
             <canvas id="canvas" width="640" height="640" />
           </MagicDropzone>
