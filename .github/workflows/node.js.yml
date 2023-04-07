@@ -32,10 +32,6 @@ jobs:
         npm install seedrandom
         npm install gh-pages
 
-    - name: Set Git credentials
-      run: |
-        git config --global credential.username "${{ secrets.GIT_USER_NAME }}"
-
     - name: Configure Git
       run: |
         git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
