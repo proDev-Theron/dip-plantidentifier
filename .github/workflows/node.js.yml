@@ -17,7 +17,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 16
+        node-version: 14
         cache: 'npm'
 
     - name: Install dependencies
@@ -25,6 +25,11 @@ jobs:
 
     - name: Install missing seedrandom package
       run: npm install seedrandom
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "test@theron.com"
+        git config --global user.name "Theron"
 
     - name: Build and deploy project
       if: github.ref == 'refs/heads/main'
