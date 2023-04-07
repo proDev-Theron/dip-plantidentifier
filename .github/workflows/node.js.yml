@@ -26,6 +26,11 @@ jobs:
     - name: Install missing seedrandom package
       run: npm install seedrandom
 
+    - name: Configure Git
+      run: |
+        git config --global user.email "${{ secrets.GIT_USER_EMAIL }}"
+        git config --global user.name "${{ secrets.GIT_USER_NAME }}"
+
     - name: Build and deploy project
       if: github.ref == 'refs/heads/main'
       run: |
