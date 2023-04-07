@@ -30,6 +30,7 @@ jobs:
       run: |
         npm install
         npm install seedrandom
+        npm install gh-pages
 
     - name: Set Git credentials
       run: |
@@ -48,4 +49,4 @@ jobs:
       if: github.ref == 'refs/heads/main'
       run: |
         npm run build
-        gh-pages -d build
+        ./node_modules/.bin/gh-pages -d build
