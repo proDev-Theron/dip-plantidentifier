@@ -22,7 +22,7 @@ export default class footer extends Component {
                                         <ul>
                                             <li><a href="https://prodev-theron.github.io/dip-plantidentifier/" id="coppy">Home</a></li>
                                             <li><a href="../dip-plantidentifier/Floradex.html" id="coppy">Floradex</a></li>
-                                            <li><a href="../Final IEEE Paper.pdf" id="coppy">IEEE Paper</a></li>
+                                            <li><a href="../dip-plantidentifier/Final IEEE Paper.pdf" id="coppy">IEEE Paper</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -31,7 +31,7 @@ export default class footer extends Component {
                                         <a href="https://www.linkedin.com/in/prodev-theron" title="Theron's LinkedIn">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
-                                        <a href="../Final IEEE Paper.pdf" title="IEEE Paperclip">
+                                        <a href="../dip-plantidentifier/Final IEEE Paper.pdf" title="IEEE Paperclip">
                                             <i class="fa fa-paperclip"></i>
                                         </a>
                                         <a href="https://github.com/proDev-Theron/dip-plantidentifier" title="Project's GitHub Repo">
