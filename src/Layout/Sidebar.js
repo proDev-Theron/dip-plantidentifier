@@ -14,7 +14,7 @@ export default class Sidebar extends Component {
                                 <a href="../dip-plantidentifier/Floradex.html"><span>Floradex</span></a>
                             </li>
                             <li class="items">
-                                <a href="../Final IEEE Paper.pdf"><span>IEEE Paper</span></a>
+                                <a href="../dip-plantidentifier/Final IEEE Paper.pdf"><span>IEEE Paper</span></a>
                             </li>
                         </ul>
                     </div>

@@ -29,13 +29,13 @@ export default class footer extends Component {
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                                     <div class="social">
                                         <a href="https://www.linkedin.com/in/prodev-theron" title="Theron's LinkedIn">
-                                            <i class="fa fa-linkedin"></i>
+                                            <i class="fa fa-linkedin fa-inverse"></i>
                                         </a>
                                         <a href="../dip-plantidentifier/Final IEEE Paper.pdf" title="IEEE Paperclip">
-                                            <i class="fa fa-paperclip"></i>
+                                            <i class="fa fa-paperclip fa-inverse"></i>
                                         </a>
                                         <a href="https://github.com/proDev-Theron/dip-plantidentifier" title="Project's GitHub Repo">
-                                            <i class="fa fa-github"></i>
+                                            <i class="fa fa-github fa-inverse"></i>
                                         </a>
                                     </div>
                                 </div>
